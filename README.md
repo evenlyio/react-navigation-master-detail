@@ -3,8 +3,9 @@
 ## Open Sourcing TODOs
 
 - [x] Add License
-- [ ] Initialize a npm package
-- [ ] Move code and code & tests here
+- [x] Initialize a npm package
+- [x] Move code code here
+- [ ] Move tests here
 - [ ] Set up CI via Travis or CircleCI
 - [ ] Add sample project and take some screenshots
 - [ ] Add live demo on expo
