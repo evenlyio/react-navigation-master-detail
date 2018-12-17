@@ -1,0 +1,33 @@
+{
+  // The rules are build on top of the recommended linter rules, together with the recommended rules
+  // for react which prevent some common perf issues.
+  // Some of the rules have been overruled because @stigi finds them annoying :P
+  // We also use the prettier config which disables some rules that would conflict with prettier
+  // formatting.
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "no-require-imports": true, // Nor part of recommend. Try to not use them. There's shouldn't really be a need
+    "no-unused-variable": [
+      // Prevents unused variables and unused imports. Has Autofix!!! :D
+      true,
+      {
+        "check-parameters": false,
+        "ignore-pattern": "^_"
+      }
+    ],
+
+    // Overruled from tslint:recommended
+    "interface-name": false, // TS interface names staring with a I
+    "object-literal-sort-keys": false, // Sorting of keys should be up to the developer to allow for grouping
+    "ordered-imports": {
+      // custom ordered-imports to support grouping
+      "options": {
+        "import-sources-order": "case-insensitive",
+        "module-source-path": "full",
+        "named-imports-order": "case-insensitive",
+        "grouped-imports": true
+      }
+    },
+    "max-file-line-count": [true, 150] // Let's be civilized and not cramp to much code into one file
+  }
+}

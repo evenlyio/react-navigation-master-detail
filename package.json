@@ -1,0 +1,23 @@
+{
+  "name": "react-navigation-master-detail",
+  "version": "1.0.0-beta",
+  "description": "A master detail navigator for tablet UIs based on react-navigation",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/evenlyio/react-navigation-master-detail",
+  "author": "Ullrich Schäfer <hi+npm@ullrich.is>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-navigation": "^2.13.8",
+    "prettier": "^1.15.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-navigation": "^3.0.8"
+  }
+}

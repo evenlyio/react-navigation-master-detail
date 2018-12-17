@@ -1,0 +1,6 @@
+/.bundle
+/.vscode
+/node_modules
+**/coverage/*.json
+**/__mocks__/*.json
+package.json
