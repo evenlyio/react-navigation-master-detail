@@ -7,6 +7,13 @@
   "repository": "https://github.com/evenlyio/react-navigation-master-detail",
   "author": "Ullrich Schäfer <hi+npm@ullrich.is>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch",
+    "lint": "tslint -p ."
+  },
   "devDependencies": {
     "@types/react-navigation": "^2.13.8",
     "prettier": "^1.15.3",
