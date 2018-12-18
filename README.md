@@ -7,8 +7,8 @@
 - [x] Move code code here
 - [ ] Move tests here
 - [ ] Set up CI via Travis or CircleCI
-- [ ] Add sample project and take some screenshots
-- [ ] Add live demo on expo
+- [x] Add sample project and take some screenshots
+- [x] Add live demo on expo
 - [ ] Update Readme caontaining:
   - use case
   - approach

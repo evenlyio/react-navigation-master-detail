@@ -13,3 +13,6 @@ yarn-error.log
 coverage
 /.vscode/.react
 /.expo
+
+# XDE
+.expo/

@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "React Navigation Master Detail Example",
+    "description": "Demonstrates a simple master detail UI for tables using react-navigation-master-detail.\nBest run on iPad or Android tablets. Not optimized for phones.",
+    "slug": "react-navigation-master-detail-demo",
+    "sdkVersion": "30.0.0",
+    "version": "1.0.0",
+    "primaryColor": "#2196f3",
+    "ios": {
+      "supportsTablet": true,
+      "isTabletOnly": true
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ],
+      "config": "./rn-cli.config.js",
+      "projectRoots": ""
+    },
+    "githubUrl": "https://github.com/evenlyio/react-navigation-master-detail"
+  }
+}
